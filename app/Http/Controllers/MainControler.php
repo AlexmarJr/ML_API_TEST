@@ -11,7 +11,7 @@ class MainControler extends Controller
     public function loadMLData(){
         ini_set('max_execution_time', 300);
         $client = new \GuzzleHttp\Client();
-        // $URL = 'https://api.mercadolibre.com/sites/MLB/categories/all';
+        $URL = 'https://api.mercadolibre.com/sites/MLB/categories/all';
         $response = $client->request('GET', $URL);
         $data = json_decode($response->getBody(), true);
         
