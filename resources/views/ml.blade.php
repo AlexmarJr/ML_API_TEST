@@ -66,8 +66,8 @@
                 <div class="modal-content">
                     <div class="container">
                         <h5 id='infoLoad'>Aguarde a Syncronização com a API do Mercado Livre <br> Sinta-se avontade pra jogar o jogo do dinousaro(Sem o Dinosauro)</h5>
-                        {{-- <iframe src="https://giphy.com/embed/dJGYFScvBjfRabiH7m" width="350" height="160" frameBorder="0" class="giphy-embed" allowFullScreen style="display:block" id='loading'></iframe>
-                        <iframe src="https://giphy.com/embed/8UF0EXzsc0Ckg" width="350" height="160" frameBorder="0" class="giphy-embed" allowFullScreen style="display:none" id='done'></iframe> --}}
+                        <iframe src="https://giphy.com/embed/dJGYFScvBjfRabiH7m" width="350" height="160" frameBorder="0" class="giphy-embed" allowFullScreen style="display:block" id='loading'></iframe>
+                        <iframe src="https://giphy.com/embed/8UF0EXzsc0Ckg" width="350" height="160" frameBorder="0" class="giphy-embed" allowFullScreen style="display:none" id='done'></iframe>
                     </div>
                     <canvas id="game" width="640" height="400"></canvas>
                 </div>
