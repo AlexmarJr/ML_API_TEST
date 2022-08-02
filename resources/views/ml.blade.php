@@ -119,12 +119,6 @@
     </body>
 
     <script>
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            }
-        });
-
         function getMLData(){
             $('#dinoModal').modal('show');
             $('#dinoModal').modal({backdrop: 'static', keyboard: false})
