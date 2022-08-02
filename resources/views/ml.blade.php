@@ -131,7 +131,7 @@
             dino();
             let q = $('#search').val()
             $.ajax({
-                url:"/load-data/",
+                url:"/load-data",
                 type: "post",
                 dataType: 'json',
                     success: function (response) {
