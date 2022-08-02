@@ -14,7 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
-
+    ini_set('memory_limit', '-1'),
     /*
     |--------------------------------------------------------------------------
     | Application Environment
