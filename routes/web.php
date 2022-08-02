@@ -27,5 +27,5 @@ Route::get('/wipe_api_data', function () {
     return redirect('/');
 })->name('wipe_api_data');
 
-Route::post('/loadData', [MainControler::class, 'loadMLData']);
+Route::post('/load-data', [MainControler::class, 'loadMLData']);
 Route::get('/details/{id?}', [MainControler::class, 'details']);
