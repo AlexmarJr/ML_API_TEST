@@ -132,7 +132,7 @@
             let q = $('#search').val()
             $.ajax({
                 url:"/load-data",
-                type: "post",
+                type: "get",
                 dataType: 'json',
                     success: function (response) {
                         $("#loading").css("display", "none");   
